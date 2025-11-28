@@ -1,5 +1,4 @@
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  // Only trigger when page is completely loaded and it's a YouTube watch page
   if (changeInfo.status === 'complete' && tab.url && tab.url.includes("youtube.com/watch")) {
     const queryParameters = tab.url.split("?")[1];
     const urlParameters = new URLSearchParams(queryParameters);

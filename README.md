@@ -91,6 +91,31 @@ A Chrome extension that lets you bookmark specific moments in YouTube videos. Ne
 1. **Click the delete button** (🗑️) next to any bookmark
 2. The bookmark will be removed immediately
 
+## 📸 Screenshots
+**Bookmark Button on YouTube Player**
+<p align="center">
+  <img src="screenshots/bookmark-button.png" alt="Bookmark Button on YouTube" width="400"/>
+</p>
+The bookmark button appears in the YouTube player controls with the tooltip "Let the Hedgehog save your spot!"
+
+**Extension Popup - Empty State**
+<p align="center">
+  <img src="screenshots/popup-empty.png" alt="Popup Empty State" width="400"/>
+</p>
+When no bookmarks exist yet, Hedgehog is waiting to bookmark
+
+**Extension Popup - With Bookmarks**
+<p align="center">
+  <img src="screenshots/popup-with-bookmark.png" alt="Popup With Bookmark" width="400"/>
+</p>
+View and manage your bookmarks - click play to jump to that moment, or delete to remove it
+
+**Not on YouTube?**
+<p align="center">
+  <img src="screenshots/popup-error.png" alt="Error State - Not YouTube" width="400"/>
+</p>
+Hedgehog only works on YouTube watch pages - you'll see this friendly message on other sites
+
 ## 📁 Project Structure
 
 ```
